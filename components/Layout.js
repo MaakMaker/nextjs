@@ -19,7 +19,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            {console.log("if home ? ================", home)}
+            {/* {console.log("if home ? ================", home)} */}
             <img
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
@@ -49,7 +49,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          {console.log("!home == ", !home)}
+          {/* {console.log("!home == ", !home)} */}
           <Link href="/">
             <a>← Back to home </a>
           </Link>
